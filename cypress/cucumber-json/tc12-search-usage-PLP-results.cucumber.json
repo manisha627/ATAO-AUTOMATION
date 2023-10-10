@@ -1,0 +1,64 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "03 Search usage: PLP results (Angular/Hybris)",
+    "line": 3,
+    "id": "03-search-usage:-plp-results-(angular/hybris)",
+    "tags": [
+      {
+        "name": "@PERSE-632",
+        "line": 1
+      },
+      {
+        "name": "@TestExecution",
+        "line": 1
+      },
+      {
+        "name": "@PERSE-12",
+        "line": 2
+      }
+    ],
+    "uri": "tc12-search-usage-PLP-results.feature",
+    "elements": [
+      {
+        "id": "03-search-usage:-plp-results-(angular/hybris);perse-12:-validate-search-results-by-hitting-enter-button",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "PERSE-12: Validate Search Results by Hitting Enter Button",
+        "tags": [
+          {
+            "name": "@PERSE-632",
+            "line": 1
+          },
+          {
+            "name": "@TestExecution",
+            "line": 1
+          },
+          {
+            "name": "@PERSE-12",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I launch webshop PLP page on 'desktop' with 'swe' on 'QA' with 'WebshopAdmin'",
+            "result": {
+              "status": "failed",
+              "duration": 14980000000,
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `#acceptAllConsentSummary`, but never found it.\n    at Context.eval (cypress/e2e/common/common-step-def.js:23:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

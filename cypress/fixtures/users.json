@@ -1,0 +1,42 @@
+[
+    {
+        "swe":
+        {
+            "QA":
+            {
+                "WebshopAdmin":
+                {   
+                    "username": "webshopqa",
+                    "password": "Rexel$56"                
+                },
+                "PLPAdmin":
+                {
+                    "username":"int_user1",
+                    "password": "12345678"
+                },
+                "HAC": {
+                    "URL":"https://backoffice-qa-rexelfr.internal.webshopcloud.rexel.com/france/hac/login",
+                    "username":"admin",
+                    "password":"12345678"
+                },
+                "appURL": "https://front-qa-rexelse.pub.webshopcloud.rexel.com/swe/register"
+            },           
+            "UAT":
+            {
+                "WebshopAdmin":
+                {   
+                    "username": "webshopuat",
+                    "password": "Rexel@75"           
+                },
+                "adminuser":
+                {
+                    "username":"adminuser1",
+                    "password": "12345678"
+                },
+                "appURL": "https://front-uat-rexelse.pub.webshopcloud.rexel.com/swe/register"
+            }
+            
+        }
+  
+    }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "03 Search usage: PLP results (Angular/Hybris)",
+    "line": 3,
+    "id": "03-search-usage:-plp-results-(angular/hybris)",
+    "tags": [
+      {
+        "name": "@PERSE-632",
+        "line": 1
+      },
+      {
+        "name": "@TestExecution",
+        "line": 1
+      },
+      {
+        "name": "@PERSE-12",
+        "line": 2
+      }
+    ],
+    "uri": "home.feature",
+    "elements": [
+      {
+        "id": "03-search-usage:-plp-results-(angular/hybris);perse-12:-validate-search-results-by-hitting-enter-button",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "PERSE-12: Validate Search Results by Hitting Enter Button",
+        "tags": [
+          {
+            "name": "@PERSE-632",
+            "line": 1
+          },
+          {
+            "name": "@TestExecution",
+            "line": 1
+          },
+          {
+            "name": "@PERSE-12",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I launch webshop ATAO page on 'desktop' with 'swe' on 'QA' with 'WebshopAdmin'",
+            "result": {
+              "status": "passed",
+              "duration": 34453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I can see the rexel logo",
+            "result": {
+              "status": "passed",
+              "duration": 68000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on 'Registrera användarkonto' button",
+            "result": {
+              "status": "passed",
+              "duration": 347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I am able to enter '200408' and '41468' values",
+            "result": {
+              "status": "passed",
+              "duration": 1131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on 'Fortsätt' button for nevigate to next page or back page",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
